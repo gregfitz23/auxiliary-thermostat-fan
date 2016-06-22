@@ -19,8 +19,8 @@ definition(
     author: "Greg Fitzgerald",
     description: "Toggle an auxiliary fan to blow cool or hot air when the thermostat is cooling or heating",
     category: "Green Living",
-    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Developers/whole-house-fan.png",
-    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Developers/whole-house-fan%402x.png"
+    iconUrl: "http://cdn.device-icons.smartthings.com/Appliances/appliances11-icn@2x.png",
+    iconX2Url: "http://cdn.device-icons.smartthings.com/Appliances/appliances11-icn@2x.png"
 )
 
 
@@ -75,4 +75,3 @@ def checkThings(evt) {
         state.fanRunning = false;
     }
 }
-
