@@ -61,7 +61,7 @@ def initialize() {
 def checkThings(evt) {
     def thermostatMode = settings.thermostat.currentValue('thermostatMode')
     def thermostatFanMode = settings.thermostat.currentValue('thermostatFanMode')
-	def selectedMode = settings.mode;
+    def selectedMode = settings.mode;
     
     log.debug "Thermostat: $thermostatMode, ThermostatFanMode: $thermostatFanMode, Mode: $selectedMode, Fan Running: ${state.fanRunning}"
     
